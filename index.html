@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>Weather app</title>
+</head>
+<body>
+    <div id="box" class="box">
+    <div id="inputData" class="inputData">
+        <input id="location" type="text" class="inputField" placeholder="Enter city name">
+        <button id="rsc" class="rsc"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    <img id="img" src="image/clear.png">
+    <div class="tmprtr" id="tmprtr">
+        <div class="temp" id="temp">0°C</div>
+        <div class="city" id="city">City - Country</div>
+    </div>
+    <div class="weather" id="weather">
+        <div id="umid" class="umid">
+            <img src="image/humidity.png">
+            <div class="umidText">
+                <span id="umd">0%</span>
+                <span id="umidText">Humidity</span>
+            </div>
+        </div>
+        <div id="wnd" class="wnd">
+            <img src="image/wind.png">
+            <div class="wndText">
+                <span id="wndSpd">0 km/h</span>
+                <span id="wndText">Wind</span>
+            </div>
+            
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
